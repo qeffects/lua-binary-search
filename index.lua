@@ -1,6 +1,6 @@
 local b = {}
 
-b.find = function(list, index, val)
+b.find = function(_, list, index, val)
     local lower = 1
     local upper = #list
     local found = false
@@ -29,7 +29,7 @@ b.find = function(list, index, val)
     return found
 end
 
-b.findInsert = function(list, index, val)
+b.findInsert = function(_, list, index, val)
     local lower = 1
     local upper = #list
     local found = false
