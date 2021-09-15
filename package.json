@@ -1,6 +1,6 @@
 {
-  "name": "lua-binary-search",
-  "version": "1.0.2",
+  "name": "lua-bin-search",
+  "version": "1.0.1",
   "description": "Lua binary search with typescript declarations",
   "main": "index.lua",
   "scripts": {

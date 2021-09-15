@@ -16,6 +16,6 @@ export declare const binarySearch: {
      * @param val The priority of the new member to be inserted
      * @returns The position of the new member 
      */
-    findInsert: <V_1 extends string>(list: BasicListMember<V_1>[], index: V_1, val: number) => number | false;
+    findInsert: <V_1 extends string>(list: BasicListMember<V_1>[], index: V_1, val: number) => number;
 };
 export {};
