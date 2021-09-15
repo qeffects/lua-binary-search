@@ -74,4 +74,5 @@ b.findInsert = function(list, index, val)
     return found
 end
 
+b.binarySearch = b
 return b
