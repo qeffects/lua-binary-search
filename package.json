@@ -1,0 +1,25 @@
+{
+  "name": "lua-binary-search",
+  "version": "1.0.2",
+  "description": "Lua binary search with typescript declarations",
+  "main": "index.lua",
+  "scripts": {
+    "build": "tstl && mv ./dist/* .",
+    "dev": "tstl --watch"
+  },
+  "files": [
+    "*.lua",
+    "*.d.ts"
+  ],
+  "keywords": [
+    "lua",
+    "binary search"
+  ],
+  "author": "qfluxstudios@gmail.com",
+  "repository": {"url": "https://github.com/qeffects/lua-binary-search"},
+  "license": "MIT",
+  "dependencies": {
+    "lua-types": "^2.10.1",
+    "typescript-to-lua": "^1.0.1"
+  }
+}
